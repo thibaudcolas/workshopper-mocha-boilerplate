@@ -74,3 +74,7 @@ git push origin master
 git push --tags
 npm publish
 ```
+
+## Credits
+
+This boilerplate was extracted from the [Test-drive D3](https://github.com/ThibWeb/testdrived3) workshopper, and is originally inspired by [Thinking in React](https://github.com/asbjornenge/thinking-in-react).
