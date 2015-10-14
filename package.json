@@ -1,6 +1,6 @@
 {
   "name": "workshopper-mocha-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A boilerplate for workshopper modules with Mocha tests and ES6 syntax",
   "author": "Thibaud Colas <thib@thib.me> (https://github.com/ThibWeb)",
   "license": "ISC",
