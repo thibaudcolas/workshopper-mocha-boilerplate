@@ -23,9 +23,9 @@ npm install
 node src/index.js
 ```
 
-Then, replace all references to `workshopper-mocha-boilerplate` and `ThibWeb` with your own module's name and GitHub account name. Customize the `README` and `LICENSE` files for your need..
+Then, replace all references to [`workshopper-mocha-boilerplate`](https://github.com/ThibWeb/workshopper-mocha-boilerplate/search?utf8=%E2%9C%93&q=workshopper-mocha-boilerplate) and [`ThibWeb`](https://github.com/ThibWeb/workshopper-mocha-boilerplate/search?utf8=%E2%9C%93&q=ThibWeb) with your own module's name and GitHub account name. Customize the [`README`](README.md) and [`LICENSE`](LICENSE) files for your need.
 
-Then it's time to write some exercises! Have a look at the example exercise, and get cracking. The point of this boilerplate is to make it easier to write workshoppers by using Mocha, so you should be at ease here.
+Then it's time to write some exercises! Have a look at the [example exercise](src/exercises/hello_world/), and get cracking. The point of this boilerplate is to make it easier to write workshoppers by using Mocha, so you should be at ease here.
 
 To add a new exercise, you need to:
 
