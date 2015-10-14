@@ -14,13 +14,38 @@ workshopper-mocha-boilerplate
 
 ## Releasing your own workshopper module
 
+First, install the project and make sure it runs:
+
 ```sh
-# Install the project
 git clone git@github.com:ThibWeb/workshopper-mocha-boilerplate.git
 cd workshopper-mocha-boilerplate
 npm install
-# Make sure it runs
 node src/index.js
+```
+
+Then, replace all references to `workshopper-mocha-boilerplate` and `ThibWeb` with your own module's name and GitHub account name. Customize the `README` and `LICENSE` files for your need..
+
+Then it's time to write some exercises! Have a look at the example exercise, and get cracking. The point of this boilerplate is to make it easier to write workshoppers by using Mocha, so you should be at ease here.
+
+To add a new exercise, you need to:
+
+1. Add it to `src/exercises/menu.json`
+2. Add the directory to `src/exercises/`, with a name matching the one in the menu
+3. Add a `.spec.js` file in `src/tests`
+4. Add test commands in `tests.sh`
+
+To check your work, make sure to:
+
+```sh
+# Run your workshopper manually
+node src/index.js
+# Run linting and unit tests
+npm run lint
+npm run test
+# Make sure your project compiles down to ES5
+npm run build
+# Setup your project on a CI platform like Travis, where it will run
+npm run test:ci
 ```
 
 ## Contributing
