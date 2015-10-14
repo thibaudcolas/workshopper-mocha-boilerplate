@@ -5,7 +5,7 @@ workshopper-mocha-boilerplate
 
 [![npm](https://img.shields.io/npm/v/workshopper-mocha-boilerplate.svg?style=flat-square)](https://www.npmjs.com/package/workshopper-mocha-boilerplate) [![Build Status](https://img.shields.io/travis/ThibWeb/workshopper-mocha-boilerplate.svg?style=flat-square)](https://travis-ci.org/ThibWeb/workshopper-mocha-boilerplate) [![dependency Status](https://img.shields.io/david/ThibWeb/workshopper-mocha-boilerplate.svg?style=flat-square)](https://david-dm.org/ThibWeb/workshopper-mocha-boilerplate) [![devDependency Status](https://img.shields.io/david/dev/ThibWeb/workshopper-mocha-boilerplate.svg?style=flat-square)](https://david-dm.org/ThibWeb/workshopper-mocha-boilerplate)
 
-> TODO Screenshot
+![Screenshot](screenshot.png)
 
 1. Install [Node.js](http://nodejs.org/)
 2. Run `npm install -g workshopper-mocha-boilerplate`
