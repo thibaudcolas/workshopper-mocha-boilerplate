@@ -3,7 +3,7 @@ workshopper-mocha-boilerplate
 
 > A boilerplate for workshopper modules with Mocha tests and ES6 syntax
 
-[![npm](https://img.shields.io/npm/v/workshopper-mocha-boilerplate.svg?style=flat-square)](https://www.npmjs.com/package/workshopper-mocha-boilerplate) [![Build Status](https://img.shields.io/travis/ThibWeb/workshopper-mocha-boilerplate.svg?style=flat-square)](https://travis-ci.org/ThibWeb/workshopper-mocha-boilerplate) [![dependency Status](https://img.shields.io/david/ThibWeb/workshopper-mocha-boilerplate.svg?style=flat-square)](https://david-dm.org/ThibWeb/workshopper-mocha-boilerplate) [![devDependency Status](https://img.shields.io/david/dev/ThibWeb/workshopper-mocha-boilerplate.svg?style=flat-square)](https://david-dm.org/ThibWeb/workshopper-mocha-boilerplate)
+[![npm](https://img.shields.io/npm/v/workshopper-mocha-boilerplate.svg?style=flat-square)](https://www.npmjs.com/package/workshopper-mocha-boilerplate) [![Build Status](https://img.shields.io/travis/thibaudcolas/workshopper-mocha-boilerplate.svg?style=flat-square)](https://travis-ci.org/thibaudcolas/workshopper-mocha-boilerplate) [![dependency Status](https://img.shields.io/david/thibaudcolas/workshopper-mocha-boilerplate.svg?style=flat-square)](https://david-dm.org/thibaudcolas/workshopper-mocha-boilerplate) [![devDependency Status](https://img.shields.io/david/dev/thibaudcolas/workshopper-mocha-boilerplate.svg?style=flat-square)](https://david-dm.org/thibaudcolas/workshopper-mocha-boilerplate)
 
 ![Screenshot](screenshot.png)
 
@@ -17,13 +17,13 @@ workshopper-mocha-boilerplate
 First, install the project and make sure it runs:
 
 ```sh
-git clone git@github.com:ThibWeb/workshopper-mocha-boilerplate.git
+git clone git@github.com:thibaudcolas/workshopper-mocha-boilerplate.git
 cd workshopper-mocha-boilerplate
 npm install
 node src/index.js
 ```
 
-Then, replace all references to [`workshopper-mocha-boilerplate`](https://github.com/ThibWeb/workshopper-mocha-boilerplate/search?utf8=%E2%9C%93&q=workshopper-mocha-boilerplate) and [`ThibWeb`](https://github.com/ThibWeb/workshopper-mocha-boilerplate/search?utf8=%E2%9C%93&q=ThibWeb) with your own module's name and GitHub account name. Customize the [`README`](README.md) and [`LICENSE`](LICENSE) files for your need.
+Then, replace all references to [`workshopper-mocha-boilerplate`](https://github.com/thibaudcolas/workshopper-mocha-boilerplate/search?utf8=%E2%9C%93&q=workshopper-mocha-boilerplate) and [`thibaudcolas`](https://github.com/thibaudcolas/workshopper-mocha-boilerplate/search?utf8=%E2%9C%93&q=thibaudcolas) with your own module's name and GitHub account name. Customize the [`README`](README.md) and [`LICENSE`](LICENSE) files for your need.
 
 Then it's time to write some exercises! Have a look at the [example exercise](src/exercises/hello_world/), and get cracking. The point of this boilerplate is to make it easier to write workshoppers by using Mocha, so you should be at ease here.
 
@@ -53,7 +53,7 @@ npm run test:ci
 Install the project with:
 
 ```sh
-git clone git@github.com:ThibWeb/workshopper-mocha-boilerplate.git
+git clone git@github.com:thibaudcolas/workshopper-mocha-boilerplate.git
 cd workshopper-mocha-boilerplate
 npm install
 npm install -g eslint babel-eslint eslint-config-airbnb
@@ -77,4 +77,4 @@ npm publish
 
 ## Credits
 
-This boilerplate was extracted from the [Test-drive D3](https://github.com/ThibWeb/testdrived3) workshopper, and is originally inspired by [Thinking in React](https://github.com/asbjornenge/thinking-in-react).
+This boilerplate was extracted from the [Test-drive D3](https://github.com/thibaudcolas/testdrived3) workshopper, and is originally inspired by [Thinking in React](https://github.com/asbjornenge/thinking-in-react).

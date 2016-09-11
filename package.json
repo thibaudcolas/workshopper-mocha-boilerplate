@@ -2,15 +2,15 @@
   "name": "workshopper-mocha-boilerplate",
   "version": "1.0.0",
   "description": "A boilerplate for workshopper modules with Mocha tests and ES6 syntax",
-  "author": "Thibaud Colas <thib@thib.me> (https://github.com/ThibWeb)",
+  "author": "Thibaud Colas <thib@thib.me> (https://github.com/thibaudcolas)",
   "license": "ISC",
-  "homepage": "https://github.com/ThibWeb/workshopper-mocha-boilerplate#readme",
+  "homepage": "https://github.com/thibaudcolas/workshopper-mocha-boilerplate#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThibWeb/workshopper-mocha-boilerplate.git"
+    "url": "git+https://github.com/thibaudcolas/workshopper-mocha-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/ThibWeb/workshopper-mocha-boilerplate/issues"
+    "url": "https://github.com/thibaudcolas/workshopper-mocha-boilerplate/issues"
   },
   "keywords": [
     "nodeschool",
@@ -29,7 +29,7 @@
     "chai": "^3.3.0",
     "mocha": "^2.3.3",
     "update-notifier": "^0.5.0",
-    "workshopper": "thibweb/workshopper#latest-msee",
+    "workshopper": "thibaudcolas/workshopper#latest-msee",
     "workshopper-exercise": "^2.4.0"
   },
   "devDependencies": {
