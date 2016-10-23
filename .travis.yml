@@ -1,12 +1,13 @@
 language: node_js
 node_js:
-    - 0.12
-
+- 0.12
 install:
-    - npm install
-
+- npm install
 before_script:
-    - npm run build
-
+- npm run build
 script:
-    - npm run test:ci
+- npm run test:ci
+notifications:
+  email: false
+  slack:
+    secure: xz6G1aK7tg6XSxi94qFNg9ie1Vi2ngMViGAUHEVkFtPIlQVQj/bGWpslvvK6kuBwRqXww/PgJYSoeA7BQKTHgtKSppLVoTT60ehNJyZwZyRgLO9ZRneHertFVq+0UOCsVAxQtyp6L7GrQ3Dd/sQ6NZTnEypk19D3rf01jSZjvrRm533jz2mJl5UqgQQfn3zT1XrNEnFl+a5UF5ZpRwxGRadGCIC+kttbQtOQ3McRi8Bu2eS9v0zcB5+6KH8YKJAosSM3jpAUxU6ljnFCeIaxCbIaRzlZ/Bemw86nRM9HOA5G2O+It+pk7QDEGl1/2EoHkncd1n3vIDVgE8I0HpFKoi9eKH2wQoMbgtwqK0dJDU/zNYXUhf+yB1Du93n47BNZi7DfXDimZQF9Ru/SosfFg+m/VVyVr7DWqvbFqiobH9IsVMX2tBtyzblPrgwIbnu0eZKtqnWfKMra186RY3GaoFvVRnl0YSmy7v3vYfMrFqWT8rS0MnDWhlf1EW7e7TCjBxJqLGOKlCK+S8LrSJVcTV4bn+qzW2H+ghlmIUcLDa6sw3HfUwhfv3rfPw+f1PtaQyRuK0Cl29QKTwxE2qIGDmzyatTCPhxIAmS7CyOWrARXOTbVMjZZpXdaRq6GcTU0N1nWq5cwT4L1wwRDhFGjv0FJ4k1RsCvlryXrjFWbPEc=
